@@ -1,0 +1,464 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-between;
+    padding: 0px 40px;
+    gap: 50px;
+}
+
+.headerLeft {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+
+.headerLeft nav ul {
+    display: flex;
+    gap: 30px;
+
+}
+
+.headerLeft nav ul li a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.headerLeft nav sup {
+    color: red;
+}
+
+.headerRight {
+    display: flex;
+    flex-grow: 1;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerRight form {
+    flex-grow: 1;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.headerRight form button {
+    padding: 10px;
+    background: transparent;
+    border: none;
+}
+
+.headerRight form input {
+    flex-grow: 1;
+    padding: 10px;
+    background: transparent;
+    border: none;
+
+}
+
+.rightIcons {
+    display: flex;
+    gap: 40px;
+}
+
+.rightIconsItems {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rightIconsItems b {
+    font-size: 13px;
+}
+
+.bannerSection {
+    width: 100%;
+    padding: 40px 0px;
+    justify-content: center;
+}
+
+.bannerSectionMid {
+    display: flex;
+    max-width: 1420px;
+    margin: auto;
+    padding: 10px 0px;
+    justify-content: center;
+
+}
+
+.midItem {
+    flex-grow: 1;
+}
+
+.midItem img {
+    width: 100%;
+}
+
+.bannerSectionMid2 {
+    display: flex;
+    max-width: 1320px;
+    margin: auto;
+}
+
+.categoryMid {
+    display: flex;
+    max-width: 1420;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.categoryItem {
+    flex-basis: 16.6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.categoryItem img {
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    padding: 30px 0px 40px;
+    background: #fafbfc;
+}
+
+.footerMid {
+    width: 1080px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.footerRow1 {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+
+}
+
+.footerRow1Left {
+    flex-basis: 20%;
+    font-size: 15px;
+    padding: 0px 0px 5px;
+    line-height: normal;
+
+}
+
+.footerRow1Left h3 {
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.footerRow1Left ul {
+    font-size: 15px;
+    line-height: 25px;
+    color: #696b79;
+    cursor: pointer;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.footerRow1app {
+    flex-basis: 30%;
+    ;
+}
+
+.footerRow1app h3 {
+    font-size: 13px;
+
+}
+
+.appOuter {
+    margin-top: 30px;
+    display: flex;
+    gap: 14px;
+}
+
+.appItem {
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.appItem img {
+    width: 100%;
+}
+
+.footerRow1Right {
+    flex-basis: 30%;
+}
+
+.footerRow1Righticonouter {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.footerRow1Righticonouter figure {
+    flex-basis: 30%;
+}
+
+.footerRow1Righticonouter figure img {
+    width: 100%;
+}
+
+.footericon {
+    margin-top: 30px;
+}
+
+.footericonsectioni {
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.footericonsection {
+    margin-bottom: 20px;
+    color: #696b79;
+    gap: 10px;
+}
+
+.footericon b {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 700px;
+    margin-top: 20px;
+}
+
+
+.popularsearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.linehr {
+    height: 1px;
+    background: black;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.footerRow2 p {
+    line-height: 30px;
+    color: #696b79;
+}
+
+
+.desktopsection {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20PX;
+}
+
+.contact {
+    flex: 1;
+    color: #696b79;
+}
+
+.copywrite {
+    flex: 1;
+    color: #94969f;
+    margin-left: 100px;
+}
+
+.flipkart {
+    flex: 1;
+    text-align: end;
+    color: #696b79;
+
+}
+
+.Registered {
+    margin-bottom: 20px;
+}
+
+.officing {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.Registered h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    line-height: 15PX;
+
+
+}
+
+.RegisteredOffice ul li {
+    line-height: 25px;
+    color: #696b79;
+
+}
+
+.footerRow3 h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+
+.footerRow3 p {
+    line-height: 25px;
+    color: #696b79;
+
+}
+
+.OnlinePara p {
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #696b79;
+
+}
+
+.bestonline h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.OnlinePara ol li {
+    list-style-type: decimal;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #696b79;
+
+
+}
+
+.FingerTips h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+
+.FingerTips p {
+    line-height: 25px;
+    color: #696b79;
+
+}
+
+.MyntraInsider h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.MyntraInsider p {
+    line-height: 25px;
+    color: #696b79;
+
+}
+
+.insidersection h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.insidersection ul li {
+    list-style-type: disc;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #696b79;
+
+}
+
+.Elitesection h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.Elitesection ul li {
+    list-style-type: disc;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #696b79;
+
+}
+
+.Myntrastudio h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.Myntrastudio p {
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #696b79;
+
+}
+
+.Fashionicon p {
+    line-height: 25px;
+    color: #696b79;
+
+}
+
+.Quickfashion p {
+    line-height: 25px;
+    color: #696b79;
+
+}
+
+.Newproduct p {
+    line-height: 25px;
+    color: #696b79;
+
+}
+
+.Routines p {
+    line-height: 25px;
+    color: #696b79;
+
+}
+
+.Celebrity p {
+    line-height: 25px;
+    color: #696b79;
+
+}
+
+.MYNTRAapp p {
+    line-height: 25px;
+    color: #696b79;
+
+}
+
+.Historymyntra p {
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #696b79;
+
+}
+
+
+.Shoponline h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.Shoponline p {
+    line-height: 25px;
+    color: #696b79;
+
+}
